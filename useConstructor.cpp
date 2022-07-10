@@ -7,6 +7,7 @@ int main(){
 
     Student s1 (10);
     cout << "Adress of S1 : " << &s1 << endl;
-    
+    cout << "roll is : " << s1.roll << endl;
+ 
     
 }
