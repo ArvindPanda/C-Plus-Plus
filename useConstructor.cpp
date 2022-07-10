@@ -5,6 +5,8 @@ using namespace std;
 
 int main(){
 
-    Student s1 (56);
-     Student *s2 = new Student(65);
+    Student s1 (10);
+    cout << "Adress of S1 : " << &s1 << endl;
+    
+    
 }
