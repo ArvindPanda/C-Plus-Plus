@@ -5,6 +5,6 @@ using namespace std;
 
 int main(){
 
-    Student s1;
-     Student *s2 = new Student;
+    Student s1 (56);
+     Student *s2 = new Student(65);
 }
