@@ -3,6 +3,19 @@ using namespace std;
 
 #include "node.cpp"
 
+Node* takeInput(){
+   int num;
+   while(num!= -1){
+    
+   cin >> num;
+   Node n(num);
+   if (n.next ==NULL){
+      return;
+   }
+   }
+
+}
+
 
  void print(Node *head){
   Node *temp = head;
