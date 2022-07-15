@@ -3,8 +3,9 @@ using namespace std;
 
 void print()
 {
-    takeInput();
+    
     cout << "The function has returned here after ther return call" << endl;
+    return;
     
     
 }
@@ -13,6 +14,7 @@ void takeInput()
 {
     print();
     int data;
+    cout << "Function returned" <<endl;
 
     cin >> data;
 
@@ -32,5 +34,5 @@ int main()
    
 
     takeInput();
-     print();
+    
 }
